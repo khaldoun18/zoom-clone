@@ -46,6 +46,6 @@ export const useGetCalls=()=>{
 
 
     return {
-        endedCalls,upcomingCalls,recordings:calls,isLoading
+        endedCalls,upcomingCalls,callRecordings:calls,isLoading
     }
 }
